@@ -271,13 +271,6 @@ local script = G2L["f"];
 
 	wait(7)
 
-
-	script.Parent.Parent.MainUI.Visible = true
-
-
-	script.Parent.Parent.MainUI.Toggle.Enabled = true
-
-
 	script.Parent:Destroy()
 
 

@@ -1,0 +1,294 @@
+-- Instances: 15 | Scripts: 1 | Modules: 0
+
+
+local G2L = {};
+
+
+
+-- StarterGui.GalaxaHub | Loader
+
+
+G2L["1"] = Instance.new("ScreenGui", game.CoreGui);
+
+
+G2L["1"]["ResetOnSpawn"] = false;
+
+
+G2L["1"]["Name"] = [[GalaxaHub | Loader]];
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader
+
+
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+
+
+G2L["2"]["BorderSizePixel"] = 5;
+
+
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(22, 22, 22);
+
+
+G2L["2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+
+
+G2L["2"]["BackgroundTransparency"] = 0.30000001192092896;
+
+
+G2L["2"]["Size"] = UDim2.new(0, 373, 0, 120);
+
+
+G2L["2"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+G2L["2"]["Name"] = [[Loader]];
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.UICorner
+
+
+G2L["3"] = Instance.new("UICorner", G2L["2"]);
+
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.UIStroke
+
+
+G2L["4"] = Instance.new("UIStroke", G2L["2"]);
+
+
+G2L["4"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+G2L["4"]["Thickness"] = 6.599999904632568;
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.UIStroke.UIGradient
+
+
+G2L["5"] = Instance.new("UIGradient", G2L["4"]);
+
+
+G2L["5"]["Rotation"] = -50;
+
+
+G2L["5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(170, 108, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(143, 67, 255))};
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.OUTERBAR
+
+
+G2L["6"] = Instance.new("Frame", G2L["2"]);
+
+
+G2L["6"]["BorderSizePixel"] = 5;
+
+
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(22, 22, 22);
+
+
+G2L["6"]["BackgroundTransparency"] = 0.30000001192092896;
+
+
+G2L["6"]["Size"] = UDim2.new(0, 322, 0, 36);
+
+
+G2L["6"]["Position"] = UDim2.new(0.06733666360378265, 0, 0.5687253475189209, 0);
+
+
+G2L["6"]["Name"] = [[OUTERBAR]];
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.OUTERBAR.UICorner
+
+
+G2L["7"] = Instance.new("UICorner", G2L["6"]);
+
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.OUTERBAR.UIStroke
+
+
+G2L["8"] = Instance.new("UIStroke", G2L["6"]);
+
+
+G2L["8"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+G2L["8"]["Thickness"] = 6.599999904632568;
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.OUTERBAR.UIStroke.UIGradient
+
+
+G2L["9"] = Instance.new("UIGradient", G2L["8"]);
+
+
+G2L["9"]["Rotation"] = -50;
+
+
+G2L["9"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(170, 108, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(143, 67, 255))};
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.OUTERBAR.INNERBAR
+
+
+G2L["a"] = Instance.new("Frame", G2L["6"]);
+
+
+G2L["a"]["BorderSizePixel"] = 5;
+
+
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+
+
+G2L["a"]["Size"] = UDim2.new(0, 8, 0, 36);
+
+
+G2L["a"]["Position"] = UDim2.new(-0.0010000667534768581, 0, 0, 0);
+
+
+G2L["a"]["Name"] = [[INNERBAR]];
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.OUTERBAR.INNERBAR.UICorner
+
+
+G2L["b"] = Instance.new("UICorner", G2L["a"]);
+
+
+G2L["b"]["CornerRadius"] = UDim.new(0, 7);
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.OUTERBAR.INNERBAR.UIGradient
+
+
+G2L["c"] = Instance.new("UIGradient", G2L["a"]);
+
+
+G2L["c"]["Rotation"] = -50;
+
+
+G2L["c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(170, 108, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(143, 67, 255))};
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.TextLabel
+
+
+G2L["d"] = Instance.new("TextLabel", G2L["2"]);
+
+
+G2L["d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+
+
+G2L["d"]["TextSize"] = 54;
+
+
+G2L["d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+
+
+G2L["d"]["Size"] = UDim2.new(0, 323, 0, 61);
+
+
+G2L["d"]["Text"] = [[GALAXA HUB]];
+
+
+G2L["d"]["Font"] = Enum.Font.SourceSansSemibold;
+
+
+G2L["d"]["BackgroundTransparency"] = 1;
+
+
+G2L["d"]["Position"] = UDim2.new(0.06434316188097, 0, 0, 0);
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.TextLabel.UIGradient
+
+
+G2L["e"] = Instance.new("UIGradient", G2L["d"]);
+
+
+G2L["e"]["Rotation"] = -50;
+
+
+G2L["e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(170, 108, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(143, 67, 255))};
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.LocalScript
+
+
+G2L["f"] = Instance.new("LocalScript", G2L["2"]);
+
+
+
+
+-- StarterGui.GalaxaHub | Loader.Loader.LocalScript
+
+
+local function C_f()
+
+
+local script = G2L["f"];
+
+
+	wait(1)
+
+
+	local TS = game:GetService('TweenService')
+
+
+	local grow = TS:Create(script.Parent.OUTERBAR.INNERBAR, TweenInfo.new(5), {Size = UDim2.new(0, 322,0, 36)})
+
+
+	
+
+
+	script.Parent.OUTERBAR.INNERBAR.Size = UDim2.new(0, 8,0, 36)
+
+
+	wait(1)
+
+
+	
+
+
+	grow:Play()
+
+
+	wait(7)
+
+
+	script.Parent.Parent.MainUI.Visible = true
+
+
+	script.Parent.Parent.MainUI.Toggle.Enabled = true
+
+
+	script.Parent:Destroy()
+
+
+	
+
+
+end;
+
+
+task.spawn(C_f);
+
+
+
+return G2L["1"], require;
